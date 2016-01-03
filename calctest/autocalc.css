@@ -1,0 +1,53 @@
+.rules,.range,.input,.showResult{
+	margin-top:20px;
+	padding:10px;
+}
+
+.rules{
+	color:red;
+}
+
+.range{
+	width:460px;
+}
+.range input{
+	width:100px;
+	margin-left:20px;
+	padding:2px 0 2px 5px;
+}
+
+.input{
+	width:460px;
+}
+
+.input input{
+	width:100px;
+	margin-right:20px;
+	padding:2px 0 2px 5px;
+}
+.line{
+	margin-left:20px;
+}
+
+.input span{
+	margin-right:20px;
+}
+.active-operation{
+	color:red;
+	font-size:20px;
+}
+
+#start,#end,#sub{
+	margin-top:20px;
+	margin-left:20px;
+}
+
+
+.attention{
+	color:red;
+}
+
+.showResult{
+	list-style:none;
+	background:white;
+}

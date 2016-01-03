@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>calc.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="calc.css">
+    <link rel="stylesheet" type="text/css" href="autocalc.css">
+
+    <script src="autocalc.js" type="text/javascript"></script>
+
+  </head>
+  
+  <body>
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-md-12 contain">
+  				<div class="mycalc">
+  					<div class="calc">
+						<div class="rules">
+							规则：点击开始后将随机产生100题范围内的四则运算，每题计算结束后点击提交按钮表示答题结束，最后计算总用时
+						</div>
+  						<div class="range">
+							<span>请输入数值范围:</span>
+							<input type="text" name="lowrange" placeholder="输入下限"/>
+							<span class="line">---</span>
+							<input type="text" name="highrange" placeholder="输入上限"/>
+						</div>
+						<div class="input">
+							<input type="text" name="number1" />
+							<span class="active-operation">+</span>
+							<input type="text" name="number2"/>
+							<span class="equal">=</span>
+							<input type="text" name="result" value=""/>
+							<input type="button"  id="sub" name="sub" value="提交"/>
+							<input type="button" id="start" name="start" value="开始"/>
+							<input type="button" id="end" name="end" value="结束"/>
+						</div>
+						<div class="attention"></div>
+						<div class="showResult">
+							<ul class="result"></ul>
+						</div>
+  					</div>
+  
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  </body>
+</html>
